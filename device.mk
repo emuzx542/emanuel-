@@ -43,9 +43,5 @@ include $(LOCAL_PATH)/vendor_prop.mk
 PRODUCT_PACKAGES += \
     init.kenzo.rc
 
-# Wifi
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/wifi/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
-
 # Inherit from msm8956-common
 $(call inherit-product, device/xiaomi/msm8956-common/msm8956.mk)
