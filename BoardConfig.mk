@@ -37,9 +37,5 @@ TARGET_KERNEL_CONFIG := lineageos_kenzo_defconfig
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 
-# Shims
-TARGET_LD_SHIM_LIBS += \
-	/system/vendor/lib64/lib-imsvt.so|libshims_ims.so
-
 # inherit from the proprietary version
 -include vendor/xiaomi/kenzo/BoardConfigVendor.mk
