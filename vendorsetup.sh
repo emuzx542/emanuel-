@@ -1,0 +1,2 @@
+add_lunch_combo aosip_kenzo-userdebug
+add_lunch_combo aosip_kenzo-eng
